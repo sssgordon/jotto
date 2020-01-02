@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 
 import { guessWord } from "../../actions/index";
+import "./Input.css";
 
 // the unconnected class allows us to pass guessWordMock fn as prop rather than from connect, so the real fn doesn't have to run for every test
 export class UnconnectedInput extends Component {
@@ -20,10 +21,10 @@ export class UnconnectedInput extends Component {
         };
 
         const contents = this.props.success ? null : (
-            <form className="form-inline">
+            <form className="form-inline input__form mb-4">
                 <input
                     data-test="input-box"
-                    className="mb-2 mx-sm-3"
+                    className="mb-2 mx-sm-3 input__input"
                     type="text"
                     placeholder="Enter guess"
                     value={this.state.currentGuess}
@@ -34,14 +35,14 @@ export class UnconnectedInput extends Component {
                 <button
                     data-test="submit-button"
                     type="submit"
-                    className="btn btn-primary mb-2"
+                    className="btn mb-2 input__btn"
                     onClick={submitGuessedWord}
                 >
                     Submit
                 </button>
             </form>
         );
-        return <div data-test="component-input">{contents}</div>;
+        return <div data-test="component-input input">{contents}</div>;
     }
 }
 

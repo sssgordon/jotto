@@ -1,0 +1,28 @@
+.guessed-words {
+    text-align: center;
+}
+
+.guessed-words__instructions {
+    font-size: 24px;
+}
+
+.guessed-words__group {
+    animation: fadeIn 1.3s;
+}
+
+.guessed-words__table {
+    border: lightgrey 1px solid;
+}
+
+th,
+td {
+    border: lightgrey 1px solid;
+}
+
+.guessed-words__table-head {
+    background-color: #ffcc00;
+}
+
+tr {
+    animation: fadeIn 1.3s;
+}
