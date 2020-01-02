@@ -7,7 +7,19 @@ import Congrats from "./components/Congrats/Congrats";
 import { getSecretWord } from "./actions/index";
 import Input from "./components/Input/Input";
 
-class App extends Component {
+// export
+// UnconnectedApp for tests
+// below still export default connected App
+// change import in the App.test.js file
+export class UnconnectedApp extends Component {
+    /**
+     * @method componentDIdMount
+     * @returns {undefined}
+     */
+    componentDidMount() {
+        // get the secret word
+        this.props.getSecretWord();
+    }
     render() {
         return (
             <div className="container">
@@ -27,4 +39,4 @@ const mapStateToProps = state => {
         secretWord
     };
 };
-export default connect(mapStateToProps, { getSecretWord })(App);
+export default connect(mapStateToProps, { getSecretWord })(UnconnectedApp);

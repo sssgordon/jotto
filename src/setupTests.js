@@ -8,4 +8,8 @@ import Enzyme, { shallow } from "enzyme";
 import EnzymeAdapter from "enzyme-adapter-react-16";
 
 // runs before every test
-Enzyme.configure({ adapter: new EnzymeAdapter() });
+// disableLifecycleMethods keeps componentDidMount from running for tests
+Enzyme.configure({
+    adapter: new EnzymeAdapter(),
+    disableLifecycleMethods: true
+});
