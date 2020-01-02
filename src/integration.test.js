@@ -1,4 +1,4 @@
-import { storeFactory, findByTestAttr } from "../test/testUtils";
+import { storeFactory } from "../test/testUtils";
 import { guessWord } from "./actions/index";
 
 describe("guesWord action dispatcher", () => {
