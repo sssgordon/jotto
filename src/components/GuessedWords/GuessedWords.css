@@ -6,6 +6,14 @@
     font-size: 24px;
 }
 
+.highlight {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(255, 204, 0, 0.7) 50%
+    );
+}
+
 .guessed-words__group {
     animation: fadeIn 1.3s;
 }

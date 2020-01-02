@@ -7,12 +7,12 @@ const GuessedWords = props => {
     let contents;
     if (props.guessedWords.length === 0) {
         contents = (
-            <span
+            <div
                 data-test="guess-instructions"
                 className="guessed-words__instructions"
             >
-                Try to guess the secret word!
-            </span>
+                Try to guess the <span className="highlight">secret word</span>!
+            </div>
         );
     } else {
         const guessedWordsRows = props.guessedWords.map((word, index) => (
