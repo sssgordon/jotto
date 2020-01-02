@@ -14,17 +14,34 @@ import Input from "./Input";
 // storeFactory in testUtils
 const setup = (initialState = {}) => {
     const store = storeFactory(initialState);
-    const wrapper = shallow(<Input store={store} />);
+    const wrapper = shallow(<Input store={store} />)
+        .dive()
+        .dive();
+    // console.log(wrapper.degug()) to see whether we're testing the right level with connect
     return wrapper;
 };
 
 // categories
 describe("render", () => {
+    let wrapper;
+    beforeEach(() => {
+        const initialState = { success: false };
+        wrapper = setup(initialState);
+    });
     // contexts
     describe("word has not been guessed", () => {
-        test("renders component without error", () => {});
-        test("renders input box", () => {});
-        test("renders submit button", () => {});
+        test("renders component without error", () => {
+            const component = findByTestAttr(wrapper, "component-input");
+            expect(component.length).toBe(1);
+        });
+        test("renders input box", () => {
+            const inputBox = findByTestAttr(wrapper, "input-box");
+            expect(inputBox.length).toBe(1);
+        });
+        test("renders submit button", () => {
+            const submitButton = findByTestAttr(wrapper, "submit-button");
+            expect(submitButton.length).toBe(1);
+        });
     });
 
     describe("word has been guessed", () => {
