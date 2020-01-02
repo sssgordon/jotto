@@ -28,7 +28,7 @@ describe("getSecretWord action creator", () => {
             });
         });
 
-        // we're returning a promise b/c we need to make sure the test is completed with that promise returned
+        // we're RETURNING a promise b/c we need to make sure the test is completed with that promise returned
         return store.dispatch(getSecretWord()).then(() => {
             const newState = store.getState();
             expect(newState.secretWord).toBe(secretWord);

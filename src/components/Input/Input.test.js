@@ -65,4 +65,21 @@ describe("render", () => {
     });
 });
 
-describe("update state", () => {});
+describe("redux props", () => {
+    test("has success piece of state as prop", () => {
+        // test whether the input component gets the success prop from the state using connect
+        // simulate an initial redux state for the virtual DOM
+        const success = true;
+        const wrapper = setup({ success });
+        // .instance returns a commponent so we get its props
+        const successProp = wrapper.instance().props.success;
+        expect(successProp).toBe(success);
+    });
+    test("`guessWord` action creator is a function prop", () => {
+        // this tests action creator passed as props using connect
+        const wrapper = setup();
+        const guessWordProp = wrapper.instance().props.guessWord;
+        // check its data type
+        expect(guessWordProp).toBeInstanceOf(Function);
+    });
+});
