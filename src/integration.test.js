@@ -7,6 +7,7 @@ describe("guesWord action dispatcher", () => {
 
     describe("no guessed words", () => {
         let store;
+        // create a store with initial state
         // dont have to write the rest of the reducer because the storeFactory will fill in
         const initialState = { secretWord };
         beforeEach(() => {
