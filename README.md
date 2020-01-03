@@ -44,4 +44,6 @@ The main goals are to implement unit and/or integration testing for:
 
 ## Random word server repository
 
-For this app to work, we need to make a get request to the [Random Word Server](https://github.com/flyrightsister/udemy-react-testing-projects/tree/master/random-word-server) (credits to Bonnie Schulkin).
+For this app to work, we need to make a get request to a [Random Word Server](https://github.com/flyrightsister/udemy-react-testing-projects/tree/master/random-word-server) (credits to Bonnie Schulkin).
+
+In order to deploy the server to heroku, I cloned a [server repo](https://github.com/sssgordon/jotto-server) on my own. This is where the random words are coming from.
