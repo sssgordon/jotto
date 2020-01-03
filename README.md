@@ -1,8 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#  :pencil2: JOTTO :pencil2:
 
-## Available Scripts
+## :trophy: [Checkout the deployed version here!] (#) :trophy:
 
-In the project directory, you can run:
+## What this project is about
+
+This jotto game is my attempt on test-driven development (TDD) using Jest and Enzyme on React and Redux. The app is modelled after Bonnie Schulkin's [course](https://www.udemy.com/course/react-testing-with-jest-and-enzyme/) on Udemy.
+
+Jotto is a word game where the player attempts to guess the 5-letter *secret word* :key: After every attempt, the app will tell the player the amount of letters in the guessed word matching the *secret word*. For example, if the *secret word* is "party" and the guessed word is "train", the app will tell you that 3 letters are matching ("a", "r", "t").
+
+## Table of contents:
+* Technologies used
+* Goals for this project
+* Other repository
 
 ### `npm start`
 
