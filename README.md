@@ -12,11 +12,11 @@ Jotto is a word game where the player tries to guess the 5-letter *secret word* 
 
 Have a go and good luck!
 
-## Table of contents:
+## Table of contents
 
 * [Technologies used](#technologies-used)
 * [Goals for this project](#goals-for-this-project)
-* Other repository
+* [Random word server repository](#random-word-server-repository)
 
 ## Technologies used
 
@@ -27,10 +27,21 @@ Have a go and good luck!
 * Axios
 * React
 * Redux
-* Redux-Thunk
+* Redux Thunk
 
 ## Goals for this project
 
 :point_down: **Click links to view some samples in this project** :point_down:
 
-The main goal of this project is to 
+The main goals are to implement unit and/or integration testing for:
+
+* [React component](https://github.com/sssgordon/jotto-client/blob/master/src/components/Input/Input.test.js)
+* [Functional unit](https://github.com/sssgordon/jotto-client/blob/master/src/helpers/index.test.js)
+* [PropTypes (line:43)](https://github.com/sssgordon/jotto-client/blob/master/src/components/Congrats/Congrats.test.js)
+* [Reducer](https://github.com/sssgordon/jotto-client/blob/master/src/reducers/successReducer.test.js)
+* [Action creator](https://github.com/sssgordon/jotto-client/blob/master/src/integration.test.js)
+* [Redux Thunk with Axios](https://github.com/sssgordon/jotto-client/blob/master/src/actions/index.test.js)
+
+## Random word server repository
+
+For this app to work, we need to make a get request to the [Random Word Server](https://github.com/flyrightsister/udemy-react-testing-projects/tree/master/random-word-server) (credits to Bonnie Schulkin).
