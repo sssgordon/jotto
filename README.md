@@ -1,4 +1,4 @@
-#  :pencil2: JOTTO :pencil2:
+#  :pencil2: Jotto :pencil2:
 
 ## :trophy: [Checkout the deployed version here!](http://obscure-fortress-88963.herokuapp.com/) :trophy:
 
