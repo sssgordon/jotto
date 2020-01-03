@@ -31,11 +31,13 @@ export const guessWord = guessedWord => (dispatch, getState) => {
 };
 
 export const getSecretWord = () => dispatch => {
-    return axios.get("http://localhost:3030").then(response =>
-        dispatch({
-            type: actionTypes.SET_SECRET_WORD,
-            // response.data is hwere axios puts data
-            payload: response.data
-        })
-    );
+    return axios
+        .get("http://frozen-atoll-66349.herokuapp.com/")
+        .then(response =>
+            dispatch({
+                type: actionTypes.SET_SECRET_WORD,
+                // response.data is hwere axios puts data
+                payload: response.data
+            })
+        );
 };
