@@ -6,7 +6,7 @@
 
 ## What this project is about
 
-This jotto game demonstrates my implementation of test-driven development (TDD) using Jest and Enzyme on React and Redux. The app is modelled after Bonnie Schulkin's [course](https://www.udemy.com/course/react-testing-with-jest-and-enzyme/) on Udemy.
+This jotto game demonstrates my implementation of **test-driven development (TDD)** using **Jest** and **Enzyme** on **React and Redux**.
 
 Jotto is a word game where the player tries to guess the 5-letter *secret word* :lock: After every attempt, the app will tell the player the amount of letters in the guessed word matching the *secret word*. For example, if the *secret word* is "party" and the guessed word is "train", the app will tell you that 3 letters are matching ("a", "r", "t").
 
@@ -17,17 +17,18 @@ Have a go and good luck!
 * [Technologies used](#technologies-used)
 * [Goals for this project](#goals-for-this-project)
 * [Random word server repository](#random-word-server-repository)
+* [Credits](#credits)
 
 ## Technologies used
 
 * Jest
 * Enzyme
-* Moxios
-* check-prop-types
 * Axios
+    * Moxios
+* check-prop-types
 * React
 * Redux
-* Redux Thunk
+    * Redux Thunk
 
 ## Goals for this project
 
@@ -47,3 +48,7 @@ The main goals are to implement unit and/or integration testing for:
 For this app to work, we need to make a get request to a [Random Word Server](https://github.com/flyrightsister/udemy-react-testing-projects/tree/master/random-word-server) (credits to Bonnie Schulkin).
 
 In order to deploy the server to heroku, I cloned a [server repo](https://github.com/sssgordon/jotto-server) on my own. This is where the random words are coming from.
+
+## Credits
+
+The app is modelled after Bonnie Schulkin's [course](https://www.udemy.com/course/react-testing-with-jest-and-enzyme/) on Udemy. She is an absolute joy to listen to (for her boomer jokes on millennial trends :skull:)!
