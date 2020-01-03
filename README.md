@@ -29,6 +29,7 @@ Have a go and good luck!
 * React
 * Redux
     * Redux Thunk
+* Bootstrap
 
 ## Goals for this project
 
