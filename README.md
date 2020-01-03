@@ -51,4 +51,4 @@ In order to deploy the server to heroku, I cloned a [server repo](https://github
 
 ## Credits
 
-The app is modelled after Bonnie Schulkin's [course](https://www.udemy.com/course/react-testing-with-jest-and-enzyme/) on Udemy. She is an absolute joy to listen to (for her boomer jokes on millennial trends :skull:)!
+The app is modelled after Bonnie Schulkin's [course](https://www.udemy.com/course/react-testing-with-jest-and-enzyme/) on Udemy. She is an absolute joy to listen to because of her boomer jokes on millennial trends :skull:!
