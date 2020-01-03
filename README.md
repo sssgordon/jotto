@@ -38,7 +38,7 @@ The main goals are to implement unit and/or integration testing for:
 
 * [React component](https://github.com/sssgordon/jotto-client/blob/master/src/components/Input/Input.test.js)
 * [Functional unit](https://github.com/sssgordon/jotto-client/blob/master/src/helpers/index.test.js)
-* [PropTypes (line:43)](https://github.com/sssgordon/jotto-client/blob/master/src/components/Congrats/Congrats.test.js)
+* [PropTypes (line: 43)](https://github.com/sssgordon/jotto-client/blob/master/src/components/Congrats/Congrats.test.js)
 * [Reducer](https://github.com/sssgordon/jotto-client/blob/master/src/reducers/successReducer.test.js)
 * [Action creator](https://github.com/sssgordon/jotto-client/blob/master/src/integration.test.js)
 * [Redux Thunk with Axios](https://github.com/sssgordon/jotto-client/blob/master/src/actions/index.test.js)
