@@ -42,7 +42,11 @@ export class UnconnectedInput extends Component {
                 </button>
             </form>
         );
-        return <div data-test="component-input input">{contents}</div>;
+        return (
+            <div data-test="component-input" className="input">
+                {contents}
+            </div>
+        );
     }
 }
 
