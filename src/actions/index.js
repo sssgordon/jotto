@@ -32,7 +32,7 @@ export const guessWord = guessedWord => (dispatch, getState) => {
 
 export const getSecretWord = () => dispatch => {
     return axios
-        .get("https://powerful-dawn-69747.herokuapp.com")
+        .get("http://powerful-dawn-69747.herokuapp.com")
         .then(response =>
             dispatch({
                 type: actionTypes.SET_SECRET_WORD,
