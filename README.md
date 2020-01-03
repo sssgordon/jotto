@@ -1,6 +1,6 @@
 #  :pencil2: JOTTO :pencil2:
 
-## :trophy: [Checkout the deployed version here!] (https://obscure-fortress-88963.herokuapp.com/) :trophy:
+## :trophy: [Checkout the deployed version here!](https://obscure-fortress-88963.herokuapp.com/) :trophy:
 
 ![Jotto webpage](https://github.com/sssgordon/jotto-client/blob/master/public/Screenshot%20from%202020-01-03%2001-32-21.png)
 
