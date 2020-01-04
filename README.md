@@ -6,7 +6,7 @@
 
 ## What this project is about
 
-This jotto game demonstrates my implementation of **test-driven development (TDD)** using **Jest** and **Enzyme** on **React and Redux**.
+This jotto game demonstrates my execution of **test-driven development (TDD)** using **Jest** and **Enzyme** on **React and Redux**.
 
 Jotto is a word game where the player tries to guess the 5-letter *secret word* :lock: After every attempt, the app will tell the player the amount of letters in the guessed word matching the *secret word*. For example, if the *secret word* is "party" and the guessed word is "train", the app will tell you that 3 letters are matching ("a", "r", "t").
 
