@@ -35,7 +35,7 @@ Have a go and good luck!
 
 ## Goals for this project
 
-:point_down: **Click links to view some samples in this project** :point_down:
+:eyes::point_down: **Click links to view some samples in this project** :point_down::eyes:
 
 The main goals are to implement unit and/or integration testing for:
 
