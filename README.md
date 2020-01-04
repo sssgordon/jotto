@@ -2,6 +2,8 @@
 
 ## :trophy: [Checkout the deployed version here!](http://obscure-fortress-88963.herokuapp.com/) :trophy:
 
+:warning: *Since the app is deployed on heroku for free the server sleeps by default, so the first guess **will** break the app. No worries! Reload the page and the game will be working* :wink:
+
 ![Jotto webpage](https://github.com/sssgordon/jotto-client/blob/master/public/Screenshot%20from%202020-01-03%2001-32-21.png)
 
 ## What this project is about
@@ -52,4 +54,4 @@ In order to deploy the server to heroku, I cloned a [server repo](https://github
 
 ## Credits
 
-The app is modelled after Bonnie Schulkin's [course](https://www.udemy.com/course/react-testing-with-jest-and-enzyme/) on Udemy. She is an absolute joy to listen to because of her boomer jokes on millennial trends :skull:!
+The app is modelled after Bonnie Schulkin's [course](https://www.udemy.com/course/react-testing-with-jest-and-enzyme/) on Udemy. She is an absolute joy to listen to because of her boomer jokes on millennial trends! :skull:
