@@ -2,7 +2,7 @@
 
 ## :trophy: [Checkout the deployed version here!](http://obscure-fortress-88963.herokuapp.com/) :trophy:
 
-:warning: *Since the app is deployed on heroku for free the server sleeps by default, so the first guess **will** break the app but also wake up the server. Reload the page and the game will be working* :wink:
+:warning: *Since the app is deployed on heroku for free the server sleeps by default, so the first guess **will** break the app but also wake up the server. Reload the page when that happens and the game will be working* :wink:
 
 ![Jotto webpage](https://github.com/sssgordon/jotto-client/blob/master/public/Screenshot%20from%202020-01-03%2001-32-21.png)
 
