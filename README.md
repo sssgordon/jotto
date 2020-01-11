@@ -31,6 +31,7 @@ Have a go and good luck!
 * React
 * Redux
     * Redux Thunk
+* JSDoc
 * Bootstrap
 
 ## Goals for this project
